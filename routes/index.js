@@ -1,9 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-const dotenv = require('dotenv');
-dotenv.config();
-
 const dbConnection = require('../services/db.service');
 
 /* GET home page. */
